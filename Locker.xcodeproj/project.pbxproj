@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73F0A44215CFFF8000414A41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F0A44115CFFF8000414A41 /* Cocoa.framework */; };
+		73F0A44C15CFFF8000414A41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A44A15CFFF8000414A41 /* InfoPlist.strings */; };
+		73F0A44E15CFFF8000414A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A44D15CFFF8000414A41 /* main.m */; };
+		73F0A45215CFFF8000414A41 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A45015CFFF8000414A41 /* Credits.rtf */; };
+		73F0A45515CFFF8000414A41 /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A45415CFFF8000414A41 /* SYAppDelegate.m */; };
+		73F0A45815CFFF8000414A41 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A45615CFFF8000414A41 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73F0A43D15CFFF8000414A41 /* Locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F0A44115CFFF8000414A41 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		73F0A44415CFFF8000414A41 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		73F0A44515CFFF8000414A41 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		73F0A44615CFFF8000414A41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73F0A44915CFFF8000414A41 /* Locker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Locker-Info.plist"; sourceTree = "<group>"; };
+		73F0A44B15CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73F0A44D15CFFF8000414A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73F0A44F15CFFF8000414A41 /* Locker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Locker-Prefix.pch"; sourceTree = "<group>"; };
+		73F0A45115CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		73F0A45315CFFF8000414A41 /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
+		73F0A45415CFFF8000414A41 /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
+		73F0A45715CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73F0A43A15CFFF8000414A41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F0A44215CFFF8000414A41 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73F0A43215CFFF8000414A41 = {
+			isa = PBXGroup;
+			children = (
+				73F0A44715CFFF8000414A41 /* Locker */,
+				73F0A44015CFFF8000414A41 /* Frameworks */,
+				73F0A43E15CFFF8000414A41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73F0A43E15CFFF8000414A41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A43D15CFFF8000414A41 /* Locker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73F0A44015CFFF8000414A41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A44115CFFF8000414A41 /* Cocoa.framework */,
+				73F0A44315CFFF8000414A41 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73F0A44315CFFF8000414A41 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A44415CFFF8000414A41 /* AppKit.framework */,
+				73F0A44515CFFF8000414A41 /* CoreData.framework */,
+				73F0A44615CFFF8000414A41 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		73F0A44715CFFF8000414A41 /* Locker */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A45315CFFF8000414A41 /* SYAppDelegate.h */,
+				73F0A45415CFFF8000414A41 /* SYAppDelegate.m */,
+				73F0A45615CFFF8000414A41 /* MainMenu.xib */,
+				73F0A44815CFFF8000414A41 /* Supporting Files */,
+			);
+			path = Locker;
+			sourceTree = "<group>";
+		};
+		73F0A44815CFFF8000414A41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A44915CFFF8000414A41 /* Locker-Info.plist */,
+				73F0A44A15CFFF8000414A41 /* InfoPlist.strings */,
+				73F0A44D15CFFF8000414A41 /* main.m */,
+				73F0A44F15CFFF8000414A41 /* Locker-Prefix.pch */,
+				73F0A45015CFFF8000414A41 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73F0A43C15CFFF8000414A41 /* Locker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73F0A45B15CFFF8000414A41 /* Build configuration list for PBXNativeTarget "Locker" */;
+			buildPhases = (
+				73F0A43915CFFF8000414A41 /* Sources */,
+				73F0A43A15CFFF8000414A41 /* Frameworks */,
+				73F0A43B15CFFF8000414A41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Locker;
+			productName = Locker;
+			productReference = 73F0A43D15CFFF8000414A41 /* Locker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73F0A43415CFFF8000414A41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SY;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Serhat Yanıkoğlu";
+			};
+			buildConfigurationList = 73F0A43715CFFF8000414A41 /* Build configuration list for PBXProject "Locker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73F0A43215CFFF8000414A41;
+			productRefGroup = 73F0A43E15CFFF8000414A41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73F0A43C15CFFF8000414A41 /* Locker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73F0A43B15CFFF8000414A41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F0A44C15CFFF8000414A41 /* InfoPlist.strings in Resources */,
+				73F0A45215CFFF8000414A41 /* Credits.rtf in Resources */,
+				73F0A45815CFFF8000414A41 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73F0A43915CFFF8000414A41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F0A44E15CFFF8000414A41 /* main.m in Sources */,
+				73F0A45515CFFF8000414A41 /* SYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73F0A44A15CFFF8000414A41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73F0A44B15CFFF8000414A41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73F0A45015CFFF8000414A41 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73F0A45115CFFF8000414A41 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		73F0A45615CFFF8000414A41 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73F0A45715CFFF8000414A41 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73F0A45915CFFF8000414A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		73F0A45A15CFFF8000414A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		73F0A45C15CFFF8000414A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locker/Locker-Prefix.pch";
+				INFOPLIST_FILE = "Locker/Locker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73F0A45D15CFFF8000414A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locker/Locker-Prefix.pch";
+				INFOPLIST_FILE = "Locker/Locker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73F0A43715CFFF8000414A41 /* Build configuration list for PBXProject "Locker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F0A45915CFFF8000414A41 /* Debug */,
+				73F0A45A15CFFF8000414A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73F0A45B15CFFF8000414A41 /* Build configuration list for PBXNativeTarget "Locker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F0A45C15CFFF8000414A41 /* Debug */,
+				73F0A45D15CFFF8000414A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73F0A43415CFFF8000414A41 /* Project object */;
+}
