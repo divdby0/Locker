@@ -8,8 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface SYAppDelegate : NSObject <NSApplicationDelegate>
+@interface SYAppDelegate : NSObject <NSApplicationDelegate> {
+    NSStatusItem *statusItem;
+	IBOutlet NSMenu *statusMenu;
+	IBOutlet NSMenuItem *lockScreenMenuItem;
+	IBOutlet NSMenuItem *quitMenuItem;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, retain) NSStatusItem *statusItem;
+
+- (IBAction)lockScreen:(id)sender;
+- (IBAction)quitApplication:(id)sender;
 
 @end

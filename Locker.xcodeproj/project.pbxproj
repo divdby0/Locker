@@ -10,9 +10,16 @@
 		73F0A44215CFFF8000414A41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F0A44115CFFF8000414A41 /* Cocoa.framework */; };
 		73F0A44C15CFFF8000414A41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A44A15CFFF8000414A41 /* InfoPlist.strings */; };
 		73F0A44E15CFFF8000414A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A44D15CFFF8000414A41 /* main.m */; };
-		73F0A45215CFFF8000414A41 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A45015CFFF8000414A41 /* Credits.rtf */; };
 		73F0A45515CFFF8000414A41 /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A45415CFFF8000414A41 /* SYAppDelegate.m */; };
-		73F0A45815CFFF8000414A41 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A45615CFFF8000414A41 /* MainMenu.xib */; };
+		73F0A45815CFFF8000414A41 /* StatusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A45615CFFF8000414A41 /* StatusMenu.xib */; };
+		73F0A46415D009A800414A41 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A46215D009A800414A41 /* Status.png */; };
+		73F0A46515D009A800414A41 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A46315D009A800414A41 /* StatusHighlighted.png */; };
+		73F0A49A15D0868400414A41 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A49915D0868400414A41 /* DDHotKeyCenter.m */; };
+		73F0A4A015D0870C00414A41 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F0A49F15D0870C00414A41 /* Carbon.framework */; };
+		73F0A4A315D0948D00414A41 /* lock-6-22x18.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A115D0948D00414A41 /* lock-6-22x18.png */; };
+		73F0A4A415D0948D00414A41 /* lock-6-22x18-inverted.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A215D0948D00414A41 /* lock-6-22x18-inverted.png */; };
+		73F0A4A615D0967800414A41 /* lock-6-22x18-inverted2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A515D0967800414A41 /* lock-6-22x18-inverted2.png */; };
+		73F0A4A815D096ED00414A41 /* lock-6.icns in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A715D096ED00414A41 /* lock-6.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +32,18 @@
 		73F0A44B15CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73F0A44D15CFFF8000414A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73F0A44F15CFFF8000414A41 /* Locker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Locker-Prefix.pch"; sourceTree = "<group>"; };
-		73F0A45115CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		73F0A45315CFFF8000414A41 /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
 		73F0A45415CFFF8000414A41 /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
-		73F0A45715CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		73F0A45715CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StatusMenu.xib; sourceTree = "<group>"; };
+		73F0A46215D009A800414A41 /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
+		73F0A46315D009A800414A41 /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
+		73F0A49815D0868400414A41 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		73F0A49915D0868400414A41 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		73F0A49F15D0870C00414A41 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		73F0A4A115D0948D00414A41 /* lock-6-22x18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-6-22x18.png"; sourceTree = "<group>"; };
+		73F0A4A215D0948D00414A41 /* lock-6-22x18-inverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-6-22x18-inverted.png"; sourceTree = "<group>"; };
+		73F0A4A515D0967800414A41 /* lock-6-22x18-inverted2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-6-22x18-inverted2.png"; sourceTree = "<group>"; };
+		73F0A4A715D096ED00414A41 /* lock-6.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "lock-6.icns"; path = "../lock-6.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F0A4A015D0870C00414A41 /* Carbon.framework in Frameworks */,
 				73F0A44215CFFF8000414A41 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				73F0A44115CFFF8000414A41 /* Cocoa.framework */,
+				73F0A49F15D0870C00414A41 /* Carbon.framework */,
 				73F0A44315CFFF8000414A41 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -82,9 +99,10 @@
 		73F0A44715CFFF8000414A41 /* Locker */ = {
 			isa = PBXGroup;
 			children = (
-				73F0A45315CFFF8000414A41 /* SYAppDelegate.h */,
-				73F0A45415CFFF8000414A41 /* SYAppDelegate.m */,
-				73F0A45615CFFF8000414A41 /* MainMenu.xib */,
+				73F0A49E15D086DE00414A41 /* AppDelegate */,
+				73F0A49D15D086AE00414A41 /* Interface */,
+				73F0A49C15D0869D00414A41 /* Images */,
+				73F0A49B15D0868D00414A41 /* Classes */,
 				73F0A44815CFFF8000414A41 /* Supporting Files */,
 			);
 			path = Locker;
@@ -97,9 +115,55 @@
 				73F0A44A15CFFF8000414A41 /* InfoPlist.strings */,
 				73F0A44D15CFFF8000414A41 /* main.m */,
 				73F0A44F15CFFF8000414A41 /* Locker-Prefix.pch */,
-				73F0A45015CFFF8000414A41 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73F0A48015D0280D00414A41 /* DDHotkey */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A49815D0868400414A41 /* DDHotKeyCenter.h */,
+				73F0A49915D0868400414A41 /* DDHotKeyCenter.m */,
+			);
+			name = DDHotkey;
+			sourceTree = "<group>";
+		};
+		73F0A49B15D0868D00414A41 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A48015D0280D00414A41 /* DDHotkey */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		73F0A49C15D0869D00414A41 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A4A715D096ED00414A41 /* lock-6.icns */,
+				73F0A4A115D0948D00414A41 /* lock-6-22x18.png */,
+				73F0A4A215D0948D00414A41 /* lock-6-22x18-inverted.png */,
+				73F0A4A515D0967800414A41 /* lock-6-22x18-inverted2.png */,
+				73F0A46215D009A800414A41 /* Status.png */,
+				73F0A46315D009A800414A41 /* StatusHighlighted.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		73F0A49D15D086AE00414A41 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A45615CFFF8000414A41 /* StatusMenu.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		73F0A49E15D086DE00414A41 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				73F0A45315CFFF8000414A41 /* SYAppDelegate.h */,
+				73F0A45415CFFF8000414A41 /* SYAppDelegate.m */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +219,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				73F0A44C15CFFF8000414A41 /* InfoPlist.strings in Resources */,
-				73F0A45215CFFF8000414A41 /* Credits.rtf in Resources */,
-				73F0A45815CFFF8000414A41 /* MainMenu.xib in Resources */,
+				73F0A45815CFFF8000414A41 /* StatusMenu.xib in Resources */,
+				73F0A46415D009A800414A41 /* Status.png in Resources */,
+				73F0A46515D009A800414A41 /* StatusHighlighted.png in Resources */,
+				73F0A4A315D0948D00414A41 /* lock-6-22x18.png in Resources */,
+				73F0A4A415D0948D00414A41 /* lock-6-22x18-inverted.png in Resources */,
+				73F0A4A615D0967800414A41 /* lock-6-22x18-inverted2.png in Resources */,
+				73F0A4A815D096ED00414A41 /* lock-6.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +238,7 @@
 			files = (
 				73F0A44E15CFFF8000414A41 /* main.m in Sources */,
 				73F0A45515CFFF8000414A41 /* SYAppDelegate.m in Sources */,
+				73F0A49A15D0868400414A41 /* DDHotKeyCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,20 +253,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		73F0A45015CFFF8000414A41 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73F0A45115CFFF8000414A41 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		73F0A45615CFFF8000414A41 /* MainMenu.xib */ = {
+		73F0A45615CFFF8000414A41 /* StatusMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				73F0A45715CFFF8000414A41 /* en */,
 			);
-			name = MainMenu.xib;
+			name = StatusMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
