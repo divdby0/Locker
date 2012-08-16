@@ -31,10 +31,8 @@ NSUInteger globalHotkeyModifiers = NSCommandKeyMask; // use | for multiple value
 	self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 	self.statusItem.menu = statusMenu;
 	self.statusItem.highlightMode = YES;
-//	self.statusItem.image = [NSImage imageNamed:@"Status"];
-//	self.statusItem.alternateImage = [NSImage imageNamed:@"StatusHighlighted"];
-	self.statusItem.image = [NSImage imageNamed:@"lock-6-22x18"];
-	self.statusItem.alternateImage = [NSImage imageNamed:@"lock-6-22x18-inverted2"];
+	self.statusItem.image = [NSImage imageNamed:@"StatusIcon"];
+	self.statusItem.alternateImage = [NSImage imageNamed:@"StatusIconHighlighted"];
 }
 
 - (void) dealloc {
@@ -69,6 +67,9 @@ NSUInteger globalHotkeyModifiers = NSCommandKeyMask; // use | for multiple value
 
 - (IBAction)showAbout:(id)sender {
 	NSLog(@"Displaying about...");
+
+	[[NSApplication sharedApplication] orderFrontStandardAboutPanel:nil];
+	[[NSApplication sharedApplication] activateIgnoringOtherApps:YES];
 }
 
 - (IBAction)quitApplication:(id)sender {

@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7386AEEA15DD61A700117F97 /* StatusIconHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7386AEE915DD61A700117F97 /* StatusIconHighlighted.png */; };
+		7386AEEC15DD6A5100117F97 /* Credits_.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7386AEEB15DD6A5100117F97 /* Credits_.rtf */; };
 		73F0A44215CFFF8000414A41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F0A44115CFFF8000414A41 /* Cocoa.framework */; };
 		73F0A44C15CFFF8000414A41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A44A15CFFF8000414A41 /* InfoPlist.strings */; };
 		73F0A44E15CFFF8000414A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A44D15CFFF8000414A41 /* main.m */; };
 		73F0A45515CFFF8000414A41 /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A45415CFFF8000414A41 /* SYAppDelegate.m */; };
 		73F0A45815CFFF8000414A41 /* StatusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A45615CFFF8000414A41 /* StatusMenu.xib */; };
-		73F0A46415D009A800414A41 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A46215D009A800414A41 /* Status.png */; };
-		73F0A46515D009A800414A41 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A46315D009A800414A41 /* StatusHighlighted.png */; };
 		73F0A49A15D0868400414A41 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A49915D0868400414A41 /* DDHotKeyCenter.m */; };
 		73F0A4A015D0870C00414A41 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F0A49F15D0870C00414A41 /* Carbon.framework */; };
-		73F0A4A315D0948D00414A41 /* lock-6-22x18.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A115D0948D00414A41 /* lock-6-22x18.png */; };
-		73F0A4A415D0948D00414A41 /* lock-6-22x18-inverted.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A215D0948D00414A41 /* lock-6-22x18-inverted.png */; };
-		73F0A4A615D0967800414A41 /* lock-6-22x18-inverted2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A515D0967800414A41 /* lock-6-22x18-inverted2.png */; };
-		73F0A4A815D096ED00414A41 /* lock-6.icns in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A715D096ED00414A41 /* lock-6.icns */; };
+		73F0A4A315D0948D00414A41 /* StatusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A115D0948D00414A41 /* StatusIcon.png */; };
+		73F0A4A815D096ED00414A41 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A4A715D096ED00414A41 /* Icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7386AEE915DD61A700117F97 /* StatusIconHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusIconHighlighted.png; sourceTree = "<group>"; };
+		7386AEEB15DD6A5100117F97 /* Credits_.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits_.rtf; sourceTree = "<group>"; };
 		73F0A43D15CFFF8000414A41 /* Locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F0A44115CFFF8000414A41 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		73F0A44415CFFF8000414A41 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -35,15 +35,11 @@
 		73F0A45315CFFF8000414A41 /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
 		73F0A45415CFFF8000414A41 /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
 		73F0A45715CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StatusMenu.xib; sourceTree = "<group>"; };
-		73F0A46215D009A800414A41 /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
-		73F0A46315D009A800414A41 /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
 		73F0A49815D0868400414A41 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
 		73F0A49915D0868400414A41 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
 		73F0A49F15D0870C00414A41 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		73F0A4A115D0948D00414A41 /* lock-6-22x18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-6-22x18.png"; sourceTree = "<group>"; };
-		73F0A4A215D0948D00414A41 /* lock-6-22x18-inverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-6-22x18-inverted.png"; sourceTree = "<group>"; };
-		73F0A4A515D0967800414A41 /* lock-6-22x18-inverted2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-6-22x18-inverted2.png"; sourceTree = "<group>"; };
-		73F0A4A715D096ED00414A41 /* lock-6.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "lock-6.icns"; path = "../lock-6.icns"; sourceTree = "<group>"; };
+		73F0A4A115D0948D00414A41 /* StatusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusIcon.png; sourceTree = "<group>"; };
+		73F0A4A715D096ED00414A41 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../Icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +111,7 @@
 				73F0A44A15CFFF8000414A41 /* InfoPlist.strings */,
 				73F0A44D15CFFF8000414A41 /* main.m */,
 				73F0A44F15CFFF8000414A41 /* Locker-Prefix.pch */,
+				7386AEEB15DD6A5100117F97 /* Credits_.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,12 +136,9 @@
 		73F0A49C15D0869D00414A41 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				73F0A4A715D096ED00414A41 /* lock-6.icns */,
-				73F0A4A115D0948D00414A41 /* lock-6-22x18.png */,
-				73F0A4A215D0948D00414A41 /* lock-6-22x18-inverted.png */,
-				73F0A4A515D0967800414A41 /* lock-6-22x18-inverted2.png */,
-				73F0A46215D009A800414A41 /* Status.png */,
-				73F0A46315D009A800414A41 /* StatusHighlighted.png */,
+				73F0A4A715D096ED00414A41 /* Icon.icns */,
+				73F0A4A115D0948D00414A41 /* StatusIcon.png */,
+				7386AEE915DD61A700117F97 /* StatusIconHighlighted.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -220,12 +214,10 @@
 			files = (
 				73F0A44C15CFFF8000414A41 /* InfoPlist.strings in Resources */,
 				73F0A45815CFFF8000414A41 /* StatusMenu.xib in Resources */,
-				73F0A46415D009A800414A41 /* Status.png in Resources */,
-				73F0A46515D009A800414A41 /* StatusHighlighted.png in Resources */,
-				73F0A4A315D0948D00414A41 /* lock-6-22x18.png in Resources */,
-				73F0A4A415D0948D00414A41 /* lock-6-22x18-inverted.png in Resources */,
-				73F0A4A615D0967800414A41 /* lock-6-22x18-inverted2.png in Resources */,
-				73F0A4A815D096ED00414A41 /* lock-6.icns in Resources */,
+				73F0A4A315D0948D00414A41 /* StatusIcon.png in Resources */,
+				73F0A4A815D096ED00414A41 /* Icon.icns in Resources */,
+				7386AEEA15DD61A700117F97 /* StatusIconHighlighted.png in Resources */,
+				7386AEEC15DD6A5100117F97 /* Credits_.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +260,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -286,7 +278,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -296,19 +288,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -356,6 +348,7 @@
 				73F0A45D15CFFF8000414A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
