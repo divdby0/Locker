@@ -15,3 +15,7 @@ xcuserdata
 profile
 *.moved-aside
 DerivedData
+build
+**/*.mode1v3
+**/*.perspectivev3
+**/*.pbxuser
