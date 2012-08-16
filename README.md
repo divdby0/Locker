@@ -1,0 +1,1 @@
+Locker is a lock screen utility for Mac OS X. Just start it and use Command-L key combination to lock your computer's screen.

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7386AEEA15DD61A700117F97 /* StatusIconHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7386AEE915DD61A700117F97 /* StatusIconHighlighted.png */; };
 		7386AEEC15DD6A5100117F97 /* Credits_.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7386AEEB15DD6A5100117F97 /* Credits_.rtf */; };
+		7386AEF215DD9E6F00117F97 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7386AEF115DD9E6F00117F97 /* LICENSE */; };
+		7386AEF515DD9F7D00117F97 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7386AEF415DD9F7D00117F97 /* README.md */; };
+		7386AEF715DD9FE200117F97 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7386AEF615DD9FE200117F97 /* .gitignore */; };
 		73F0A44215CFFF8000414A41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F0A44115CFFF8000414A41 /* Cocoa.framework */; };
 		73F0A44C15CFFF8000414A41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A44A15CFFF8000414A41 /* InfoPlist.strings */; };
 		73F0A44E15CFFF8000414A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A44D15CFFF8000414A41 /* main.m */; };
@@ -23,6 +26,9 @@
 /* Begin PBXFileReference section */
 		7386AEE915DD61A700117F97 /* StatusIconHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusIconHighlighted.png; sourceTree = "<group>"; };
 		7386AEEB15DD6A5100117F97 /* Credits_.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits_.rtf; sourceTree = "<group>"; };
+		7386AEF115DD9E6F00117F97 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7386AEF415DD9F7D00117F97 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		7386AEF615DD9FE200117F97 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		73F0A43D15CFFF8000414A41 /* Locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F0A44115CFFF8000414A41 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		73F0A44415CFFF8000414A41 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -58,6 +64,9 @@
 		73F0A43215CFFF8000414A41 = {
 			isa = PBXGroup;
 			children = (
+				7386AEF615DD9FE200117F97 /* .gitignore */,
+				7386AEF415DD9F7D00117F97 /* README.md */,
+				7386AEF115DD9E6F00117F97 /* LICENSE */,
 				73F0A44715CFFF8000414A41 /* Locker */,
 				73F0A44015CFFF8000414A41 /* Frameworks */,
 				73F0A43E15CFFF8000414A41 /* Products */,
@@ -218,6 +227,9 @@
 				73F0A4A815D096ED00414A41 /* Icon.icns in Resources */,
 				7386AEEA15DD61A700117F97 /* StatusIconHighlighted.png in Resources */,
 				7386AEEC15DD6A5100117F97 /* Credits_.rtf in Resources */,
+				7386AEF215DD9E6F00117F97 /* LICENSE in Resources */,
+				7386AEF515DD9F7D00117F97 /* README.md in Resources */,
+				7386AEF715DD9FE200117F97 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
