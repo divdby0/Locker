@@ -15,7 +15,7 @@
 		73F0A44215CFFF8000414A41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F0A44115CFFF8000414A41 /* Cocoa.framework */; };
 		73F0A44C15CFFF8000414A41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A44A15CFFF8000414A41 /* InfoPlist.strings */; };
 		73F0A44E15CFFF8000414A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A44D15CFFF8000414A41 /* main.m */; };
-		73F0A45515CFFF8000414A41 /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A45415CFFF8000414A41 /* SYAppDelegate.m */; };
+		73F0A45515CFFF8000414A41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A45415CFFF8000414A41 /* AppDelegate.m */; };
 		73F0A45815CFFF8000414A41 /* StatusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F0A45615CFFF8000414A41 /* StatusMenu.xib */; };
 		73F0A49A15D0868400414A41 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F0A49915D0868400414A41 /* DDHotKeyCenter.m */; };
 		73F0A4A015D0870C00414A41 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F0A49F15D0870C00414A41 /* Carbon.framework */; };
@@ -38,8 +38,8 @@
 		73F0A44B15CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73F0A44D15CFFF8000414A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73F0A44F15CFFF8000414A41 /* Locker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Locker-Prefix.pch"; sourceTree = "<group>"; };
-		73F0A45315CFFF8000414A41 /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
-		73F0A45415CFFF8000414A41 /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
+		73F0A45315CFFF8000414A41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73F0A45415CFFF8000414A41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		73F0A45715CFFF8000414A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StatusMenu.xib; sourceTree = "<group>"; };
 		73F0A49815D0868400414A41 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
 		73F0A49915D0868400414A41 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
@@ -163,8 +163,8 @@
 		73F0A49E15D086DE00414A41 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				73F0A45315CFFF8000414A41 /* SYAppDelegate.h */,
-				73F0A45415CFFF8000414A41 /* SYAppDelegate.m */,
+				73F0A45315CFFF8000414A41 /* AppDelegate.h */,
+				73F0A45415CFFF8000414A41 /* AppDelegate.m */,
 			);
 			name = AppDelegate;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SY;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Serhat Yanıkoğlu";
 			};
 			buildConfigurationList = 73F0A43715CFFF8000414A41 /* Build configuration list for PBXProject "Locker" */;
@@ -241,7 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73F0A44E15CFFF8000414A41 /* main.m in Sources */,
-				73F0A45515CFFF8000414A41 /* SYAppDelegate.m in Sources */,
+				73F0A45515CFFF8000414A41 /* AppDelegate.m in Sources */,
 				73F0A49A15D0868400414A41 /* DDHotKeyCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +272,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -300,7 +299,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

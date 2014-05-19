@@ -1,5 +1,5 @@
 //
-//  SYAppDelegate.h
+//  AppDelegate.h
 //  Locker
 //
 //  Created by Serhat Yanıkoğlu on 06.08.2012.
@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface SYAppDelegate : NSObject <NSApplicationDelegate> {
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
     NSStatusItem *statusItem;
 	IBOutlet NSMenu *statusMenu;
 	IBOutlet NSMenuItem *lockScreenMenuItem;
@@ -17,6 +17,7 @@
 
 @property (nonatomic, retain) NSStatusItem *statusItem;
 
+- (IBAction)startScreenSaver:(id)sender;
 - (IBAction)lockScreen:(id)sender;
 - (IBAction)quitApplication:(id)sender;
 
